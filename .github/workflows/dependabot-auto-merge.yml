@@ -1,6 +1,6 @@
 ---
 
-# Managed by gridwatch/infrastructure-github.
+# Managed by fd1x/infrastructure-github.
 # Manual edits will be overwritten on the next `terraform apply`.
 #
 # Action pins live in its `locals.tf`. Never merge a Dependabot pull request
@@ -35,7 +35,7 @@ jobs:
     name: auto-merge
     # The pull request's author, not `github.actor`: a person re-running the
     # job becomes the actor, and the secrets below reach Dependabot runs only.
-    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository_owner == 'gridwatch'
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository_owner == 'fd1x'
     runs-on: ubuntu-26.04
     permissions:
       contents: read
