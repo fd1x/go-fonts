@@ -1,6 +1,6 @@
 # Security Policy
 
-> This document describes the Security Policy for this repository. It mirrors the organization-wide policy published at [@gridwatch/.github/SECURITY.md](https://github.com/gridwatch/.github/blob/main/SECURITY.md).
+> This document describes the Security Policy for this repository. It mirrors the organization-wide policy published at [@fd1x/.github/SECURITY.md](https://github.com/fd1x/.github/blob/main/SECURITY.md).
 
 ## Table of Contents
 
