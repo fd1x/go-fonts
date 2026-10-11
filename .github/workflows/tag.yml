@@ -1,6 +1,6 @@
 ---
 
-# Managed by gridwatch/infrastructure-github.
+# Managed by fd1x/infrastructure-github.
 # Manual edits will be overwritten on the next `terraform apply`.
 
 name: Tag
@@ -31,4 +31,4 @@ concurrency:
 jobs:
   tag:
     name: tag
-    uses: gridwatch/.github/.github/workflows/go-module-tag.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
+    uses: fd1x/.github/.github/workflows/go-module-tag.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
