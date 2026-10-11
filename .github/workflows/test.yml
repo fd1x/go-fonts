@@ -1,6 +1,6 @@
 ---
 
-# Managed by gridwatch/infrastructure-github.
+# Managed by fd1x/infrastructure-github.
 # Manual edits will be overwritten on the next `terraform apply`.
 
 name: Test
@@ -36,7 +36,7 @@ permissions:
 jobs:
   test:
     name: test
-    uses: gridwatch/.github/.github/workflows/go-test.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
+    uses: fd1x/.github/.github/workflows/go-test.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
     secrets:
       REPO_ACCESS_APP_CLIENT_ID: ${{ secrets.REPO_ACCESS_APP_CLIENT_ID }}
       REPO_ACCESS_APP_PRIVATE_KEY: ${{ secrets.REPO_ACCESS_APP_PRIVATE_KEY }}
