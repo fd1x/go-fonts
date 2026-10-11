@@ -31,4 +31,4 @@ concurrency:
 jobs:
   tag:
     name: tag
-    uses: gridwatch/.github/.github/workflows/go-module-tag.yml@8c642813d652cfc7da85e7876cc7f47050d748e9  # v20261010-8
+    uses: gridwatch/.github/.github/workflows/go-module-tag.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
