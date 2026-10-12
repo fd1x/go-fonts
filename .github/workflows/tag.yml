@@ -31,4 +31,4 @@ concurrency:
 jobs:
   tag:
     name: tag
-    uses: fd1x/.github/.github/workflows/go-module-tag.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
+    uses: fd1x/.github/.github/workflows/go-module-tag.yml@282f217baa87b3fc1a0a270777443f893f3ce010  # v20261012-1
