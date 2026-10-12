@@ -1,6 +1,6 @@
 # GitHub Copilot Instructions
 
-This repository is a Go project in the [@gridwatch](https://github.com/gridwatch) fleet. `AGENTS.md` in the repository root carries the full conventions and is authoritative wherever it is more specific than this file.
+This repository is a Go project in the [@fd1x](https://github.com/fd1x) fleet. `AGENTS.md` in the repository root carries the full conventions and is authoritative wherever it is more specific than this file.
 
 ## Centrally managed files
 
@@ -50,7 +50,7 @@ Image tags are **date-based**, `vYYYYMMDD-N` — never semantic versions. **Neve
 
 At `v2` and above the module path takes a `/v2` suffix to match.
 
-Private modules need `GOPRIVATE=github.com/gridwatch/*` locally as well as in CI. Without it `go mod download` asks the public proxy and the checksum database for a repo neither can see, and fails rather than falling back to a direct fetch.
+Private modules need `GOPRIVATE=github.com/fd1x/*` locally as well as in CI. Without it `go mod download` asks the public proxy and the checksum database for a repo neither can see, and fails rather than falling back to a direct fetch.
 
 ## GitHub Actions
 
