@@ -1,4 +1,4 @@
-module github.com/gridwatch/go-fonts
+module github.com/fd1x/go-fonts
 
 go 1.27.2
 

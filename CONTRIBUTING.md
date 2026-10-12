@@ -16,7 +16,7 @@ pulls shared task definitions from the `tooling` repository, checked out beside
 this one:
 
 ```shell
-git clone https://github.com/gridwatch/tooling.git ../tooling
+git clone https://github.com/fd1x/tooling.git ../tooling
 task test    # go test -race -count=1 ./...
 task lint    # gofmt, golangci-lint against the shared config, govulncheck
 ```

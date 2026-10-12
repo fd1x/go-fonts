@@ -9,13 +9,13 @@ rasterize text into images; a browser wants woff2 and should not use this module
 ## Install
 
 ```shell
-go get github.com/gridwatch/go-fonts
+go get github.com/fd1x/go-fonts
 ```
 
 ## Usage
 
 ```go
-import "github.com/gridwatch/go-fonts/inter"
+import "github.com/fd1x/go-fonts/inter"
 
 data := inter.Regular   // []byte — raw TTF
 fsys := inter.FS        // embed.FS — for walking or extracting
