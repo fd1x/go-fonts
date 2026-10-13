@@ -21,4 +21,4 @@ permissions:
 jobs:
   superlinter:
     name: superlinter
-    uses: fd1x/.github/.github/workflows/superlinter-frontend.yml@f1be6006d01d15567ff5e18a52ea0226af01cef7  # v20261013-1
+    uses: fd1x/.github/.github/workflows/superlinter-frontend.yml@9ea9762ac8a2ac3681fc6999ac727f0e7b5ce808  # v20261013-4
