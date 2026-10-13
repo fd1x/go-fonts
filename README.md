@@ -1,6 +1,6 @@
 # go-fonts
 
-> Go module embedding the GRIDWATCH typefaces, one package per family
+> Go module embedding the FD1x typefaces, one package per family
 
 Each family is its own package, so a consumer compiles in only the bytes it asks
 for rather than the whole set. The fonts are TTF because the consumers
