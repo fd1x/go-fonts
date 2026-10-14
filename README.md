@@ -93,3 +93,5 @@ split saves is binary size: only the families you actually import are embedded.
 
 Figures are uncompressed TTF bytes. They drift when a family is upgraded and
 nothing enforces them.
+
+<!-- Actions canary check; this PR is not merged. -->
