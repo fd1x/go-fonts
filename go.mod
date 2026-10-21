@@ -1,6 +1,6 @@
 module github.com/fd1x/go-fonts
 
-go 1.27.2
+go 1.27.3
 
 require (
 	github.com/stretchr/testify v1.12.1
